@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @assistant.name %>
+</p>
+
+<p>
+  <b>Twitter name:</b>
+  <%= @assistant.twitter_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_assistant_path(@assistant) %> |
+<%= link_to 'Back', assistants_path %>
